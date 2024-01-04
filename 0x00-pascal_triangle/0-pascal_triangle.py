@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Pascal Triangle Interview"""
+
+
 def pascal_triangle(n):
     if n <= 0:
         return []
@@ -12,8 +16,4 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
-
-# Example usage
-if __name__ == "__main__":
-    print_triangle(pascal_triangle(5))
 
